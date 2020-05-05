@@ -14,11 +14,13 @@ public class CriarConta {
         
         Conta conta = new Conta();
         conta.setAgencia(234);
-        conta.setNumero(1255);
-        conta.setTitular("Maria");
+        conta.setNumero(7263);
+        conta.setTitular("Paulo");
+        conta.setSaldo(500.00);
         
         em.getTransaction().begin();
         em.persist(conta);
         em.getTransaction().commit();
+        em.close();
     }
 }
