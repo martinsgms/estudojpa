@@ -5,9 +5,9 @@
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
     
     <persistence-unit name="estudojpa">       
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         
-        <class><!-- Entity Manager Class Name -->
-        </class>
+        <class>br.com.martins.jpa.modelo.Conta</class>
         
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
