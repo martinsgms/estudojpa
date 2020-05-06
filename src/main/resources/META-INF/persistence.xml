@@ -8,6 +8,7 @@
         <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
         
         <class>br.com.martins.jpa.modelo.Conta</class>
+        <class>br.com.martins.jpa.modelo.Movimentacao</class>
         
         <properties>
             <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
