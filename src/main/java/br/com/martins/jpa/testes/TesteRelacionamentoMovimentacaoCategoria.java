@@ -18,7 +18,7 @@ public class TesteRelacionamentoMovimentacaoCategoria {
     public static void main(String[] args) {
         
         Conta conta = new Conta();
-        conta.setId(2L);
+        conta.setId(6L);
         
         CategoriaMovimentacao c1 = new CategoriaMovimentacao("Viagem");
         CategoriaMovimentacao c2 = new CategoriaMovimentacao("Negócios");
